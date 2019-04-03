@@ -1,13 +1,15 @@
-package com.practice;
+package com.class13;
 
 import java.util.Scanner;
 
-public class Sasa {
+public class StringManipulationTask {
 
 	public static void main(String[] args) {
+	
+
 		// Create a String and print it in reverse order (Sunday → yadnuS).
         String str = "Sunday";
-        for (int i =str.length(); i>=0; i++) {
+        for (int i =str.length(); i>=0; i--) {
         	System.out.println(str.charAt(i) + " ");
         }   
     
@@ -63,17 +65,6 @@ public class Sasa {
 	}
 	
 }
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
 	
 
 

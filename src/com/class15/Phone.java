@@ -35,14 +35,6 @@ public class Phone {
 		
 	
 	
-	
-	
-	
-	
-	
-	
-	
-	
 	}
 	void call() {
 		System.out.println("I can make a call using my "+brand);

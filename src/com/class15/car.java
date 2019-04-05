@@ -1,6 +1,6 @@
 package com.class15;
 
-public class car {
+public class Car {
 
 	String make, model, color;
 	int door, wheels;
@@ -8,9 +8,9 @@ public class car {
 	public static void main(String[] args) {
 		
 		// ClasssName variableName = new ClassName
-		//1st object
+		//Variables and methods are member of class
 		
-		car car1 = new car();
+		Car car1 = new Car();
 		car1.make = "Honda";
 		car1.model = "Civic";
 		car1.color = "Black";
@@ -26,7 +26,7 @@ public class car {
 		
 		//2nd object
 		
-		car car2 = new car();
+		Car car2 = new Car();
 		car2.make = "Tesla";
 		car2.model = "X";
 		car2.color = "Blue";

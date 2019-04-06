@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class TestClass {
 
 	public static void main(String[] args) {
-		 //There aer 2 types of methods: Built-in, User defined
+		 //There are 2 types of methods: Built-in, User defined
 		//Built-in --> limited
 		//class Scanner, String
 		

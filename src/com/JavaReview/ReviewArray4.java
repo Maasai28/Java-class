@@ -11,8 +11,9 @@ int [] [] arr = {
 		{5,6},
           };
 int sum = 0;
-	for (int i =0; i<arr[1].length; i++);
+	for (int i =0; i<arr[1].length; i++);{
 	System.out.println(arr[1][i]+",");
 	sum+=arr[1][i];
 	}
+}
 }

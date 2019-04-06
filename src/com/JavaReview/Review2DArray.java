@@ -24,7 +24,7 @@ public class Review2DArray {
 		if (int j =0; j <rating[i].length; j++) {
 			
 		
-	
-	
+		}
+		}
 	}
 }

@@ -11,7 +11,8 @@ public class Application {
 	obj.sub(4, 4);
 	obj.div(10, 5);
 	obj.mult(6, 2);
-
+	Calculator obj1 = new Calculator();
+	obj1.example();
 	}
  int sum(int a, int b) {
 	System.out.println(a +b);

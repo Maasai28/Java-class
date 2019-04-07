@@ -19,7 +19,7 @@ public class ScannerMethod {
 
 	
 	}
-void sum(int x, int y) {          //Dynamic - takes parameters
+  void sum(int x, int y) {          //Dynamic - takes parameters
 	   System.out.println(x + y);
 	  
    }
@@ -27,7 +27,7 @@ void sum(int x, int y) {          //Dynamic - takes parameters
 	  int a=10, b=12; 
 	  System.out.println(a - b);
    }
- int sum1 (int x, int y) {
+   int sum1 (int x, int y) {
 	 System.out.println(x + y);
 	 return x + y;
 	 

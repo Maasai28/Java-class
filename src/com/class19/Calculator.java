@@ -13,28 +13,31 @@ public class Calculator {
 		System.out.println((a+b+c)/3);
 		return (a+b+c)/3;
 	}
-    static int min(int [] arr) {
-    int min =0;                     // int min =a
-	for (int y:arr) {               // if(b<a) b=min
-		if(y<min) {                 // if(c<min c= min
-			min = y;
+    static int min(int a, int b, int c) {
+    int min = a;                   
+	 if (b<a)  {
+		 b = min;
+		 }
+		 if (c<min) {
+			 c= min;                
+		 	
 		}
-	}
-	return min;
-}
-    static int max(int [] array) {
-    	int max = 0;                 //int max =a
-    	for (int j : array) {         //if(b>a b= max
-    		 if (array[j] >= max) {   // if c>max c= max
+      return min;
+      }
+    
 
-    	            max = array[j];
-    	       
-    	        }
-
-    	    }
+    static int max (int a, int b, int c) {
+    	int max = a;
+    	if (b>a) {
+    		b=max;
+    		}
+    		if (c>max) {
+    			c=max;
+    		 }
+    	
     	      return max;	
     	}
     }
-	
+
 	
 

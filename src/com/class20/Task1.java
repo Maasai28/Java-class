@@ -14,7 +14,7 @@ public class Task1 {
 	
 	obj.createEmail("Bob", "Snow", "outlook");
 	System.out.println(email);
-	
+	obj.sayHello();
 		
 }
 	//return type methodName
@@ -23,5 +23,7 @@ public class Task1 {
 	 return email.toLowerCase();
  }
 	
+void sayHello()	{
 	
+}
 }

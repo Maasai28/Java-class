@@ -12,8 +12,12 @@ public class Questions {
  *           -string - parameters - array of strings with the name args
  *           
  * initializing instance variables in constructor
- * What are the rules of creating a constructor             -
- */
-	
+ * What are the rules of creating a constructor
+ * Polymorphism - ability of an object to take on many forms
+ *              - occurs when a parent class reference is used to refer to a child class
+ *              -object that passes more than one IS_-A test is considered polymorphic
+ * Can you overload a constructor 
+ * Can you overload a static method, private method             
+ */	
 	
 }
